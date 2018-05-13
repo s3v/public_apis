@@ -19,7 +19,7 @@ def get_xml(url_to_get, use_test_file=False):
     Fetches the xml from their public API endpoint using a HTTP GET request
     """
     if use_test_file:
-        with open('xml-test.xml', 'r') as xml_file:
+        with open('hha_co_uk.xml', 'r') as xml_file:
             xml_contents = xml_file.read()
         return xml_contents.encode('utf-8')
     else:
